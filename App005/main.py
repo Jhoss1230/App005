@@ -78,15 +78,16 @@ def main(page: ft.Page):
                 txtNum1,
                 txtNum2
             ],alignment="center"),
+             ft.Row(controls=[lblResultado],alignment="center"),
+             ft.Row(controls=[
+                 btnsuma,
+                 btnresta,
+                 btnmulti,
+                 btndivi,
+                 btnlimpiar
+             ], alignment="center")
         ]),
-        ft.Row(controls=[lblResultado],alignment="center"),
-        ft.Row(controls=[
-            btnsuma,
-            btnresta,
-            btnmulti,
-            btndivi,
-            btnlimpiar
-        ],alignment="center")
+
     )
     
 
